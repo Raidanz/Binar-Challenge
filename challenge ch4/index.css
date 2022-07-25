@@ -1,0 +1,80 @@
+body{
+    background-color: #9C835F;
+
+}
+header{
+    padding:1rem;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    border-radius: 1.5em;
+    margin-right: 2em;
+}
+h2{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #F9B23D;
+}
+.gambar-refresh{
+    width: 5%;
+
+}
+.text-vs{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 130px;
+    line-height: 196px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #BD0000
+}
+.java{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.set{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+.default-content{
+    display:flex;
+    justify-content: center;
+    width:30%;
+    height: 20%;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.clik-player{
+    background: #C4C4C4;
+    border-radius: 30px;
+    display:flex;
+    justify-content: center;
+    width:30%;
+    height: 20%;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.image-game{
+    width: 40%;
+} 
+.refresh{
+    display: flex;
+    justify-content: center;
+} 
+
